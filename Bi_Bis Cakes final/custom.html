@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bi_Bi's Cakes | Custom Orders</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="logo">
+
+            <h1>Bi_Bi's Cakes</h1>
+
+            <p>Freshly Baked. Beautifully Designed.</p>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav>
+
+            <a href="index.html">Home</a>
+
+            <a href="about.html">About Us</a>
+
+            <a href="cupcakes.html">Cupcakes</a>
+
+            <a href="custom.html">Custom Orders</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+
+        <section class="page-heading">
+
+            <h2>Custom Orders</h2>
+
+            <p>
+                Tell us about your event and the cupcakes
+                you would like us to create.
+            </p>
+
+        </section>
+
+
+        <!-- ORDER FORM -->
+
+        <section class="form-section">
+
+            <h2>Place Your Order</h2>
+
+            <form>
+
+
+                <!-- NAME -->
+
+                <label for="name">
+                    Full Name
+                </label>
+
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Enter your full name"
+                       required>
+
+
+                <!-- EMAIL -->
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email"
+                       required>
+
+
+                <!-- PHONE -->
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       placeholder="Enter your phone number"
+                       required>
+
+
+                <!-- EVENT -->
+
+                <label for="event">
+                    Type of Event
+                </label>
+
+                <select id="event"
+                        name="event">
+
+                    <option value="">
+                        Select an event
+                    </option>
+
+                    <option value="birthday">
+                        Birthday
+                    </option>
+
+                    <option value="wedding">
+                        Wedding
+                    </option>
+
+                    <option value="baby-shower">
+                        Baby Shower
+                    </option>
+
+                    <option value="corporate">
+                        Corporate Event
+                    </option>
+
+                    <option value="graduation">
+                        Graduation
+                    </option>
+
+                    <option value="other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <!-- QUANTITY -->
+
+                <label for="quantity">
+                    Number of Cupcakes
+                </label>
+
+                <input type="number"
+                       id="quantity"
+                       name="quantity"
+                       min="1"
+                       placeholder="Enter quantity"
+                       required>
+
+
+                <!-- DATE -->
+
+                <label for="date">
+                    Event Date
+                </label>
+
+                <input type="date"
+                       id="date"
+                       name="date"
+                       required>
+
+
+                <!-- DESIGN -->
+
+                <label for="design">
+                    Describe Your Design
+                </label>
+
+                <textarea id="design"
+                          name="design"
+                          rows="7"
+                          placeholder="Tell us about your colours, theme and preferred design."
+                          required></textarea>
+
+
+                <!-- BUTTONS -->
+
+                <div class="form-buttons">
+
+                    <input type="submit"
+                           value="Submit Order">
+
+                    <input type="reset"
+                           value="Clear Form">
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>Bi_Bi's Cakes</h3>
+
+        <p>Freshly Baked. Beautifully Designed.</p>
+
+        <p>
+            &copy; 2026 Bi_Bi's Cakes. All rights reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
